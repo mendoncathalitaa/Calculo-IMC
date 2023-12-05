@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Titillium+Web&display=swap');
+
+:root{
+    --primary-color: #cbc9ec;
+    --primary-color-darker: #48476d;
+}
+
+*{
+    box-sizing:border-box;
+    outline: 0;  
+}
+
+h1{
+    text-align: center; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.0em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bloco{
+    display: flex;
+
+}
+
+.imc, .result{
+    width: 50%;
+}
+
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+form input, form label, form button{
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 20px;
+    height: 30px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font: 20px;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+
+
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+  }
+  
+  .bad {
+    background: rgb(255, 150, 150);
+  }
+
